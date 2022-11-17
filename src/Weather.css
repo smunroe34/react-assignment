@@ -24,3 +24,20 @@ footer {
   font-size: 35px;
   font-weight: bolder;
 }
+.Weather .temperature{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+}
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -32px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+.Weather img {
+  height: 64px;
+  width:64px;
+  display: inline-block
+}
