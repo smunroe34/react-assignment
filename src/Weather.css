@@ -24,16 +24,15 @@ footer {
   font-size: 35px;
   font-weight: bolder;
 }
-.Weather .temperature{
+.currentTempDegrees {
+  font-size: 45px;
   font-weight: bold;
-  font-size: 60px;
-  line-height: 64px;
 }
-.Weather .unit {
-  font-size: 15px;
+.currentTempUnit {
+  font-size: 16px;
+  line-height: 1;
   position: relative;
-  top: -32px;
-  font-weight: bold;
+  top: -27px;
 }
 .Weather canvas {
   height: 64px;
