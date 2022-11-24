@@ -18,6 +18,7 @@ setWeatherData ({
   city: response.data.city,
   wind: response.data.wind.speed,
   description: response.data.condition.description,
+  coordinates: response.data.coordinates,
   icon: response.data.condition.icon,
 
 });
@@ -54,7 +55,7 @@ if (weatherData.ready) {
       </div>
     </form>
     <WeatherInfo data={weatherData}/>
-    <WeatherForecast />
+    <WeatherForecast coordinates={weatherData.coordinates} />
   </div>
 );
 }
