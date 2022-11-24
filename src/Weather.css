@@ -25,17 +25,16 @@ footer {
   font-weight: bolder;
 }
 .currentTempDegrees {
-  font-size: 45px;
-  font-weight: bold;
+  font-size: 70px;
 }
 .currentTempUnit {
   font-size: 16px;
   line-height: 1;
   position: relative;
-  top: -27px;
+  top: -45px;
 }
 .Weather canvas {
-  height: 64px;
-  width:64px;
-  float: left;
+  margin-top: 2px;
+  margin-right: 3px;
+  display: inline-block;
 }
